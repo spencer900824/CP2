@@ -4,7 +4,7 @@
 
 int search( int* ans , int **deck , int m , int n ,int x , int y , int step)
 {
-	if( deck(x,y) != 0)//¨«¹L¤F
+	if( deck(x,y) != 0)//accessed
 		return 0;
 
 	int max = m*n;//total step
